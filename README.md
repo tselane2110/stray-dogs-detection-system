@@ -23,6 +23,23 @@
 
 ***
 # **About the Stray Dogs Detection Model**
-* find the dataset used for model training at [Drive-link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
-* the trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
+* Find the dataset used for model training at [Drive-link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
+* This dataset is already pre-processed and splitted into train, test and validation, so no need to work on it.
+* The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
+* For training your own model:
+
+  1. Download the dataset from the drive link
+  2. Upload it on Colab, or your own Drive.
+  3. If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file there (but it might take some time).
+  4. Unzip the file using: <br> `!unzip <path to dataset's zip file>`
+  5. Clone Yolov5's GitHub, cd to yolov5 and install the requirements using: <br>
+     `!git clone https://github.com/ultralytics/yolov5` <br>
+     `%cd yolov5` <br>
+     `%pip install -r requirements.txt` <br>
+  7. Upload yolo5s.pt and custom_dataset.yaml on your Colab
+  8. Train your own model using the command: <br>
+     `
+     !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
+     `
+  9. And ofcourse, you can just use some other dataset and train your own custom object detection model :))
 
