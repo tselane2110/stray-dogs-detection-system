@@ -15,3 +15,6 @@
 * choose a file then upload it
 * that's it for now, have fun!
 
+
+**Note: This is an ongoing project, so Ill be updating it time to time**
+
