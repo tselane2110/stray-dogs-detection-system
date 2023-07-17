@@ -1,0 +1,7 @@
+train: <path to training data>
+val: <path to valiadation data>
+test: <path to testing data>
+
+nc: 4
+
+names: [ "Dog", "Human", "Horse", "Cat" ]
