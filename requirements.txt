@@ -1,0 +1,14 @@
+# requirements
+# Usage: pip install -r requirements.txt
+
+flask
+torch
+filetype
+argparse
+datetime
+Pillow
+opencv-python
+numpy
+tqdm
+ultralytics
+ipywidgets
