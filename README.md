@@ -23,5 +23,6 @@
 
 ***
 # **About the Stray Dogs Detection Model**
-* find the dataset used for model training at [link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
+* find the dataset used for model training at [Drive-link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
+* the trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
 
