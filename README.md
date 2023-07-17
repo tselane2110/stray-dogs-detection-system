@@ -6,7 +6,7 @@
 # **Setup**
 * cmd -> cd </path to your fav directory/>
 * git clone https://github.com/tselane2110/stray-dogs-detection-system
-* open the folder on vscode
+* cmd -> cd </path to the cloned repository/>
 * create a virtual environment by executing `python -m venv virtual` in the cmd
 * activate the virtual environment by executing `virtual\Scripts\Activate.ps1` in the cmd
 * install the required libaries by executing `pip install -r requirements.txt` in the cmd
