@@ -8,6 +8,11 @@
 * cmd -> cd </path to your fav directory/>
 * git clone https://github.com/tselane2110/stray-dogs-detection-system
 * cmd -> cd </path to the cloned repository/>
+* create 4 folders in the `static\` folder :
+  a. images
+  b. predicted_images
+  c. videos
+  d. predicted_videos
 * create a virtual environment by executing the following command in your cmd
   ```cmd
   python -m venv virtual
