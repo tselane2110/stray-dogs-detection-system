@@ -20,3 +20,8 @@
 **Note: This is an ongoing project, so Ill be updating it time to time**
 <br>
 **Also, if you encounter any issue, kindly do let me know so I can fix it!**
+
+***
+# **About the Stray Dogs Detection Model**
+* find the dataset used for model training at [link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
+
