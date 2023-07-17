@@ -41,5 +41,5 @@
      `
      !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
      `
-  9. And ofcourse, you can just use some other dataset and train your own custom object detection model :))
+  9. And ofcourse, you can just use some other dataset, and change the parameters as per your preference and train your own custom object detection model :))
 
