@@ -8,10 +8,22 @@
 * cmd -> cd </path to your fav directory/>
 * git clone https://github.com/tselane2110/stray-dogs-detection-system
 * cmd -> cd </path to the cloned repository/>
-* create a virtual environment by executing `python -m venv virtual` in the cmd
-* activate the virtual environment by executing `virtual\Scripts\Activate.ps1` in the cmd
-* install the required libaries by executing `pip install -r requirements.txt` in the cmd
-* run `python main-app.py` in the cmd
+* create a virtual environment by executing the following command in your cmd
+  ```cmd
+  python -m venv virtual
+  ```
+* activate the virtual environment by executing the following command in your cmd
+  ```cmd
+  virtual\Scripts\Activate.ps1
+  ``` 
+* install the required libaries by executing the following command in your cmd
+  ```cmd
+  pip install -r requirements.txt
+  ```
+* run the following command in your cmd
+  ```cmd
+  python main-app.py
+  ```
 * go to `192.168.1.101:5000` on your browser
 * choose a file then upload it
 * that's it for now, have fun!
@@ -31,15 +43,21 @@
   1. Download the dataset from the drive link
   2. Upload it on Colab, or your own Drive.
   3. If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file there (but it might take some time).
-  4. Unzip the file using: <br> `!unzip <path to dataset's zip file>`
+  4. Unzip the file using: <br>
+     ```cmd
+      !unzip <path_to_dataset.zip_file>
+     ```
   5. Clone Yolov5's GitHub, cd to yolov5 and install the requirements using: <br>
-     `!git clone https://github.com/ultralytics/yolov5` <br>
-     `%cd yolov5` <br>
-     `%pip install -r requirements.txt` <br>
+  
+     ```cmd
+     !git clone https://github.com/ultralytics/yolov5
+     %cd yolov5
+     %pip install -r requirements.txt
+     ```
   7. Upload yolo5s.pt and custom_dataset.yaml on your Colab
   8. Train your own model using the command: <br>
-     `
+     ```cmd
      !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
-     `
+     ```
   9. And ofcourse, you can just use some other dataset, and change the parameters as per your preference and train your own custom object detection model :))
 
