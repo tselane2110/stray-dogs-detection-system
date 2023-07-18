@@ -18,31 +18,34 @@
 
 
 ## **III. Model Training**
-* For training your own model:
 
-  1. Download the dataset from the drive link
-  2. Upload it on Colab, or your own Drive.
-  3. If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file there (but it might take some time).
-  4. Unzip the file using: <br>
+  * Download the dataset from the drive link
+  * Upload it on Colab, or your own Drive.
+  * If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file there (but it might take some time).
+  * Unzip the file using: <br>
      ```cmd
       !unzip <path_to_dataset.zip_file>
      ```
-  5. Clone Yolov5's GitHub, cd to yolov5 and install the requirements using: <br>
+  * Clone Yolov5's GitHub, cd to yolov5 and install the requirements using: <br>
   
      ```cmd
      !git clone https://github.com/ultralytics/yolov5
      %cd yolov5
      %pip install -r requirements.txt
      ```
-  7. Upload yolo5s.pt and custom_dataset.yaml on your Colab
-  8. Train your own model using the command: <br>
+  * Upload yolo5s.pt and custom_dataset.yaml on your Colab
+  * Train your own model using the command: <br>
      ```cmd
      !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
      ```
      I trained for 100 epochs initially but, 90 epochs gave the best result.
-  9. Save the trained model. You can find it at `/contents/yolov5/runs/exp/weights`
-  10. The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
-  11. **Reminder:** you can just use some other dataset, or change the parameters as per your preference to train your own custom object detection model :))
+  * Save the trained model. You can find it at `/contents/yolov5/runs/train/exp/weights/best.pt`
+  * The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
+  * Apply object detection on a video/image file using:
+      ```cmd
+      !python detect.py --img 640 --source <path_to_source_file> --conf 0.5 --weights /content/yolov5/runs/train/exp/weights/best.pt
+      ```
+   **Reminder:** you can just use some other dataset, or change the parameters as per your preference to train your own custom object detection model :))
 
 ## **IV. Model Deployment Setup**
 * This project might only work on your system if you have a GPU. (else it will only work for image files and not the video ones)
@@ -54,10 +57,9 @@
    ```cmd
    git clone https://github.com/tselane2110/stray-dogs-detection-system
     ```
-* cmd:
-  ```cmd
-  cd <path_to_the_cloned_repository>
-  ```
+    ```cmd
+    cd <path_to_the_cloned_repository>
+    ```
 * create 4 folders in `static\` :
   * images
   * predicted_images
