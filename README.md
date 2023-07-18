@@ -51,7 +51,7 @@
   ```cmd
    cd <path_to_your_fav_directory>
   ```
-* ```cmd
+ ```cmd
    git clone https://github.com/tselane2110/stray-dogs-detection-system
   ```
 * cmd:
