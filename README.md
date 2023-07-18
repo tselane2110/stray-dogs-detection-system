@@ -40,8 +40,9 @@
      !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
      ```
      I trained for 100 epochs initially but, 90 epochs gave the best result.
-  9. The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
-  10. **Reminder:** you can just use some other dataset, or change the parameters as per your preference to train your own custom object detection model :))
+  9. Save the trained model. You can find it at `/contents/yolov5/runs/exp/weights`
+  10. The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
+  11. **Reminder:** you can just use some other dataset, or change the parameters as per your preference to train your own custom object detection model :))
 
 ## **IV. Model Deployment Setup**
 * This project might only work on your system if you have a GPU. (else it will only work for image files and not the video ones)
