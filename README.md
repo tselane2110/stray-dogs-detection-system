@@ -58,7 +58,7 @@
   ```cmd
   cd <path_to_the_cloned_repository>
   ```
-* create 4 folders in the `static\` folder :
+* create 4 folders in `static\` :
   * images
   * predicted_images
   * videos
