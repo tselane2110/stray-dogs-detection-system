@@ -7,7 +7,8 @@
 * This project might only work on your system if you have a GPU. (else it will only work for image files and not the video ones)
 * cmd -> cd </path to your fav directory/>
 * ```bash
-   git clone https://github.com/tselane2110/stray-dogs-detection-system ```
+   git clone https://github.com/tselane2110/stray-dogs-detection-system
+  ```
 * cmd -> cd </path to the cloned repository/>
 * create 4 folders in the `static\` folder :
   * images
