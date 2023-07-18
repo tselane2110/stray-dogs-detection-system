@@ -18,7 +18,7 @@
 
 
 ## **III. Model Training**
-* For training your own model (using the same dataset, or a different one):
+* For training your own model:
 
   1. Download the dataset from the drive link
   2. Upload it on Colab, or your own Drive.
