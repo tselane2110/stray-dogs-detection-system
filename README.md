@@ -42,10 +42,23 @@
 
 ***
 # **About the Stray Dogs Detection Model**
+
+### **Motivation** 
+- High population of stray dogs in Karachi leading to safety concerns and conflicts between humans and stray dogs.
+### **Objective**
+- Develop a stray dog detection model to identify and locate stray dogs across the city.
+### **Solution**
+- Create a system using AI and image processing to detect stray dogs and provide their location to authorities.
+### **Benefits**
+- Efficiently capture stray dogs, enabling authorities to sterilize and vaccinate them, reducing fear and promoting harmony between humans and stray dogs.
+
+## **I. The Dataset & The Model**
 * Find the dataset used for model training at [Drive-link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
 * This dataset is already pre-processed and splitted into train, test and validation, so no need to work on it.
 * The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
-* For training your own model:
+
+## **II. Train Your Own Model**
+* For training your own model (using the same dataset, or a different one):
 
   1. Download the dataset from the drive link
   2. Upload it on Colab, or your own Drive.
