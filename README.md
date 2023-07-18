@@ -40,7 +40,7 @@
      ```
      I trained for 100 epochs initially but, 90 epochs gave the best result.
   * Save the trained model. You can find it at `/contents/yolov5/runs/train/exp/weights/best.pt`
-  * The trained model is the best.pt file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
+  * The trained model is the `best.pt` file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
   * Apply object detection on a video/image file using:
       ```cmd
       !python detect.py --img 640 --source <path_to_source_file> --conf 0.5 --weights /content/yolov5/runs/train/exp/weights/best.pt
