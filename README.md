@@ -3,7 +3,7 @@
 
 
 ***
-# **Setup**
+# **Deployment Setup**
 * This project might only work on your system if you have a GPU. (else it will only work for image files and not the video ones)
 * cmd -> cd </path to your fav directory/>
 * ```bash
