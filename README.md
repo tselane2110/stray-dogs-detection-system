@@ -19,9 +19,9 @@ https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive
 
 ## **III. Model Training**
 
-  * Download the dataset from the drive link
+  * Download the pre-processed dataset from the drive link
   * Upload it on Colab, or your own Drive.
-  * If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file there (but it might take some time).
+  * If you uploaded it on Drive, then mount your Google Drive in your Colab file, else just upload the dataset's zip file on Colab (it might take some time).
   * Unzip the file using: <br>
      ```cmd
       !unzip <path_to_dataset.zip_file>
@@ -38,7 +38,7 @@ https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive
      ```cmd
      !python train.py --img 640 --cfg /content/yolov5/models/yolov5m.yaml --hyp /content/yolov5/data/hyps/hyp.scratch-med.yaml --batch 32 --epochs 50 --data /content/custom_dataset.yaml --weights /content/yolov5s.pt  --workers 24 
      ```
-     I trained for 100 epochs initially but, 90 epochs gave the best result.
+     I trained for 100 epochs initially but 90 epochs gave the best result.
   * Save the trained model. You can find it at `/contents/yolov5/runs/train/exp/weights/best.pt`
   * The trained model is the `best.pt` file in this repo, but you can also find it at [Drive-link](https://drive.google.com/drive/folders/1C8by4nxxDmteD-d1FThhAlI3na92QDzr?usp=sharing)
   * Apply object detection on a video/image file using:
@@ -48,7 +48,7 @@ https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive
    **Reminder:** you can just use some other dataset, or change the parameters as per your preference to train your own custom object detection model :))
 
 ## **IV. Model Deployment Setup**
-* This project might only work on your system if you have a GPU. (else it will only work for image files and not the video ones)
+* This project might only work on your system if you have a GPU (else it will only work for image files and not the video ones)
 * You can replace the `best.pt` file with your own custom object detection model.
 * cmd:
   ```cmd
@@ -86,7 +86,7 @@ https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive
 * that's it for now, have fun!
 
 
-**Note: This is an ongoing project, so Ill be updating it time to time**
+**Note: This is an ongoing project, so Ill be updating it from time to time**
 <br>
 **Also, if you encounter any issue, kindly do let me know so I can fix it!**
 
