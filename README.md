@@ -13,9 +13,9 @@
 - Efficiently capture stray dogs, enabling authorities to sterilize and vaccinate them, reducing fear and promoting harmony between humans and stray dogs.
 
 ## **II. The Dataset**
-* Find the dataset used for model training at [Drive-link](https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
-* This dataset is already pre-processed and splitted into train, test and validation, so no need to work on it.
-
+* Find the raw data at [Drive-link](https://drive.google.com/drive/folders/1qHlNZJ4GH53qBY4ZxN8FJsVmtSYBUXzR?usp=sharing)
+* Find the pre-processed dataset at [Drive-link](
+https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive_link)
 
 ## **III. Model Training**
 
