@@ -8,7 +8,7 @@
 ### **Objective**
 - Develop a stray dog detection model to identify and locate stray dogs across the city.
 ### **Solution**
-- Create a system using AI and image processing to detect stray dogs and provide their location to authorities.
+- Create a system using AI and object detection to detect stray dogs and provide their location to authorities.
 ### **Benefits**
 - Efficiently capture stray dogs, enabling authorities to sterilize and vaccinate them, reducing fear and promoting harmony between humans and stray dogs.
 
