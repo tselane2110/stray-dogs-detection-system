@@ -86,10 +86,6 @@ https://drive.google.com/file/d/1v8dlVtK31Ob07VK056vutVntPzvDMS8V/view?usp=drive
 * choose a file then upload it
 * that's it for now, have fun!
 
-
-**Note: This is an ongoing project, so Ill be updating it from time to time**
-**(Note: I lied)**
-<br>
-**Also, if you encounter any issue, kindly do let me know so I can fix it!**
+**If you encounter any issue, kindly do let me know so I can fix it!**
 
 
